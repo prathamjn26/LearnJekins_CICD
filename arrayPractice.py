@@ -68,12 +68,6 @@ my_array.append(11)
 print(my_array.count(11))
 print(my_array)
 # 13. Convert array to string using tostring() method
-print("Step 13")
-strTemp = my_array.tostring()
-print(strTemp)
-ints = array('i')
-ints.fromstring(strTemp)
-print(ints)
 
 # 14. Convert array to a python list with same elements using tolist() method
 print("Step 14")
@@ -84,7 +78,5 @@ print("Step 14")
 print("Step 16")
 print(my_array[:])
 
-
-
-
+print("---finally---")
 
